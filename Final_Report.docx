@@ -1,0 +1,120 @@
+# YouTube Trending Video Analytics
+
+## Student Details
+
+Name: [VISHALI S]
+
+Internship: Elevate Labs Data Analytics Internship
+
+Project Title: YouTube Trending Video Analytics
+
+Date: [Submission Date]
+
+---
+
+## 1. Introduction
+
+YouTube is one of the largest video-sharing platforms in the world. Millions of videos are uploaded daily, and some videos become trending based on audience engagement. This project analyzes trending YouTube videos to identify patterns in popularity, views, likes, categories, and sentiment.
+
+---
+
+## 2. Objective
+
+The objective of this project is to analyze YouTube trending video data and discover patterns that influence video popularity across different countries and categories.
+
+---
+
+## 3. Tools Used
+
+* Python
+* Pandas
+* Matplotlib
+* TextBlob
+* VS Code
+
+---
+
+## 4. Dataset Information
+
+The dataset contains 161,470 YouTube trending videos with 18 attributes including:
+
+* Video Title
+* Channel Name
+* Category ID
+* Views
+* Likes
+* Comments
+* Country
+* Trending Date
+
+---
+
+## 5. Analysis Performed
+
+### Country Analysis
+
+A comparison of trending videos across countries was performed.
+
+Result:
+
+* United States has the highest number of trending videos.
+* Canada and France follow closely.
+
+### Channel Analysis
+
+Trending channels were analyzed.
+
+Result:
+
+* The Late Show with Stephen Colbert had the highest number of trending videos.
+
+### Views vs Likes Analysis
+
+The relationship between views and likes was analyzed.
+
+Result:
+
+* Videos with higher views generally receive more likes.
+* Strong positive correlation observed.
+
+### Category Analysis
+
+Trending video categories were examined.
+
+Result:
+
+* Category ID 24 had the highest number of trending videos.
+
+### Sentiment Analysis
+
+Sentiment analysis was performed on video titles.
+
+Result:
+
+* Most titles were Neutral.
+* Positive titles were second most common.
+* Negative titles were least common.
+
+---
+
+## 6. Key Findings
+
+1. US contributes the largest number of trending videos.
+2. Entertainment channels dominate trending content.
+3. Higher views usually lead to higher likes.
+4. Category ID 24 is the most popular category.
+5. Neutral sentiment titles are most common among trending videos.
+
+---
+
+## 7. Conclusion
+
+This project successfully analyzed YouTube trending video data using Python and data visualization techniques. The study identified important trends related to countries, channels, categories, engagement metrics, and sentiment. These insights can help content creators understand factors that influence video popularity.
+
+---
+
+## 8. Future Improvements
+
+* Build an interactive Tableau Dashboard.
+* Analyze comments sentiment.
+* Predict future trending videos using Machine Learning.
